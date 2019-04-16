@@ -137,3 +137,56 @@
 09:39:04.953 INFO  - Refreshed build settings on project hello_world 
 10:33:44.745 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:17:43.468 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+09:17:43.943 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:17:54.015 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:17:54.024 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:17:55.207 WARN  - Unable to determine location of documentation for OS . 
+09:17:55.210 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:17:55.219 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.753 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.797 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.815 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.823 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.831 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.839 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:47.878 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:57.713 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:57.718 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:57.719 WARN  - Unable to determine location of documentation for OS . 
+09:18:57.721 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:18:57.726 ERROR - Unable to read in MSS file D:\RA150-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:19:04.900 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+09:23:43.560 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:25:27.329 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:25:52.454 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:27:53.242 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:30:01.206 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:43:36.614 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:44:47.912 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:45:29.834 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:59:59.420 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:00:25.420 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:04:57.277 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:05:27.963 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:19:05.622 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:21:07.763 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
