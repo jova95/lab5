@@ -156,6 +156,8 @@ entity test is
   (
     -- ADD USER PORTS BELOW THIS LINE ------------------
     --USER ports added here
+	 LED_Data : out std_logic_vector(7 downto 0);
+	 DIP_Data : in std_logic_vector(7 downto 0);
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -197,6 +199,7 @@ entity test is
     S_AXI_ARPROT                   : in  std_logic_vector(2 downto 0);
     S_AXI_RID                      : out std_logic_vector(C_S_AXI_ID_WIDTH-1 downto 0);
     S_AXI_RLAST                    : out std_logic
+	
     -- DO NOT EDIT ABOVE THIS LINE ---------------------
   );
 

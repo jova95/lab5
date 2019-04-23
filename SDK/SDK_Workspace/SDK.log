@@ -190,3 +190,84 @@
 10:05:27.963 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
 10:19:05.622 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
 10:21:07.763 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:27:29.095 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+09:28:36.964 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:29:31.118 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:29:44.441 WARN  - Terminating existing sessions on processor microblaze_0 
+09:29:48.606 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:32:54.315 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:33:02.515 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:33:11.615 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:33:16.315 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:33:29.415 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:34:13.310 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:34:59.727 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to connect to Xilinx hw_server. Check if the
+    hw_server is running and correct TCP port is used.
+ 
+09:35:11.437 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:35:17.709 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:35:31.563 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:36:52.677 INFO  - FPGA configured successfully with bitstream "D:/RA150-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:39:12.674 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:53:25.492 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:54:42.136 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+10:30:11.990 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:30:12.018 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+10:30:12.020 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
